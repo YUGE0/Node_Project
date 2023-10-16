@@ -1,0 +1,45 @@
+//Repl
+  to use repl you can write node in comand prompt and it will give you ">" this where you can write code and execut that.
+
+  C:\Users\HP>node
+Welcome to Node.js v18.17.1.
+Type ".help" for more information.
+> const name = "john"
+undefined
+> name
+'john'
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+
+//Globals
+  
+//__dirname
+
+//__filename
+
+//require
+
+//module
+  console.log(module) : it will be displaying every single thing that module include.
+  os module : it helps to interect with os or web.
+  to get the user info : .userInfo()
+  to see the uptime : .uptime()
+  path : it use to set up path
+   .join will combin the path by / 
+   .basename returns the file name at end of file.
+   .resolve() it will give the absolute path.
+     console.log(path.resolve(__filename,"Main.java"))
+//prpcess
+
+//file Sync
+ readFileSync("./path",type "utf8") 
+ writeFileSync("./path", "content" or veriable)
+
+//HTTP
+ type localhost:port number to see the output
+ 
+
+//extra
+ react is based on npm
+ //time 1:51:
+ npm init -y will create jason file 
